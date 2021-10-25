@@ -3,6 +3,9 @@ body {
   marigin:0;
   backrgound-color:black;
 }
+h1 {
+  color:white;
+}
 .wrapper {
   max-width:100%;
   padding: 3vh 3vw;
