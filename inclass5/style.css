@@ -1,0 +1,26 @@
+.publish-time {
+  color:gray;
+}
+.destination {
+  font-style:cursive;
+ color:orange;
+}
+.description {
+  font-style:bold;
+}
+.popsicle {
+  color:blue;
+}
+.pizza {
+  color:purple;
+}
+.burger {
+  color:green;
+}
+.bread {
+  width:300px;
+  height:250PX;
+}
+.cheese {
+  border-radius: 8px;
+}
