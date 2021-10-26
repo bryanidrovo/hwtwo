@@ -35,8 +35,8 @@ h1 {
   }
 }
 
-.myrow {
-  height: 100vh;
+.row {
+  height: 50vh;
 }
 li a, li a:hover, li a:active{
   text-decoration: none;
