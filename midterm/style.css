@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/jxu1xlm.css");
 body {
   width:100%;
   margin:0;
@@ -5,6 +6,9 @@ body {
 }
 h1 {
   color:white;
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .wrapper {
   max-width:100%;
@@ -29,9 +33,6 @@ h1 {
   }
 }
 
-h1 {
-  
-}
 .myrow {
   height: 100vh;
 }
