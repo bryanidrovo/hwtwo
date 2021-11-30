@@ -10,3 +10,7 @@
 .item + .item {
   margin-left: 2%;
 }
+
+img {
+  width: 1005
+}
