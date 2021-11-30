@@ -12,20 +12,82 @@
 
 /* The animation code */
 @keyframes example3 {
-    0%   {left:0px;}
+	0% {transform: translateY(0);
+	left:0px;}
 
-    50% {top:75px;}
-    
-    100% {left:100px;}
+	95% {transform: translateY(-50px);}
+     
+	
+	100% {transform: translateY(0);
+		left:600px}
 }
+		
+		@keyframes example2 {
+    0%   {transform: translateY(0);
+			left:0px;}
+
+    50% {transform: translateY(-50px);}
+    
+			65% {transform: translateY(0px);}
+			
+			100% {left:600px;}
+}
+		
+		@keyframes example1 {
+    0%   {transform: translateY(0);
+			left:0px;}
+
+   85% {transform: translateY(-50px);}
+    
+			90% {transform: translateY(0px);}
+			
+			100% {left:600px;}
+}
+		
+		@keyframes example0 {
+    0%   {transform: translateY(0);
+			left:0px;}
+
+    72% {transform: translateY(-50px);}
+    
+			80% {transform: translateY(0px);}
+			
+			100% {left:600px;}
+}
+		
+		
 
 /* The element to apply the animation to */
 .box3 {
     position: relative;
     animation-name: example3;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease;
+}
+		
+		.box2 {
+    position: relative;
+    animation-name: example2;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+		
+		.box1 {
+    position: relative;
+    animation-name: example1;
+    animation-duration: 33s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+		
+		.box0 {
+    position: relative;
+    animation-name: example0;
+    animation-duration: 34s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
 }
 
 .box3 img{
