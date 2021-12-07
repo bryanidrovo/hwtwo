@@ -48,10 +48,10 @@ li a, li a:hover, li a:active{
   text-align: center;
 }
   .bacon {
-    margin: 4vw 4vh;
+    margin: 4vh 4vw;
     color: yellow;
     font-size: 1em;
-    animation: plate 2s; 
+    
     text-decoration:none;
 }
 .bacon:active {
@@ -60,5 +60,4 @@ li a, li a:hover, li a:active{
       
  .bacon:visited {
    text-decoration:none;
-   color: inherit;
 }
