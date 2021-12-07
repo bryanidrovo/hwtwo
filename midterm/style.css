@@ -16,6 +16,7 @@ h1 {
   50% { font-family:'Arial';}
   75% { font-family:'Playfair Display';}
   100% { font-family:'Calibri';}
+}
 .wrapper {
   max-width:100%;
   padding: 3vh 3vw;
