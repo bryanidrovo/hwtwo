@@ -8,6 +8,9 @@ h1 {
   font-size: 3em;
   font-family: Georgia;
   text-align: center;
+}
+.bbq {
+
    animation: plate 3s infinite; 
 }
 @keyframes plate {
