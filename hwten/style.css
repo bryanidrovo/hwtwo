@@ -1,0 +1,19 @@
+body {
+  background-color: purple;
+color: pink;
+  width:100%;
+  height: 100vh;
+}
+p {
+  text-align:center;
+  font-size:7vw;
+  font-family: "times new roman",serif;
+  font-weight: 600;
+}
+.brutal {
+  margin:25px;
+  padding:10px;
+}
+span:hover {
+  font-size: 8vw;
+}
