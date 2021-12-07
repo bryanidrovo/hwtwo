@@ -47,4 +47,14 @@ li a, li a:hover, li a:active{
   color: inherit;
   text-align: center;
 }
-  
+  .bacon {
+    margin: 4vw 4vh;
+    color: yellow;
+    font-size: 1em;
+    animation: plate 2s;
+}
+.bacon:active {
+  color: green;
+}
+      
+    
