@@ -8,7 +8,14 @@ h1 {
   font-size: 3em;
   font-family: Georgia;
   text-align: center;
+   animation: plate 3s infinite; 
 }
+@keyframes plate {
+  0% {font-family:'Georgia';}
+  25% {font-family:'Cabin';}
+  50% { font-family:'Arial';}
+  75% { font-family:'Playfair Display';}
+  100% { font-family:'Calibri';}
 .wrapper {
   max-width:100%;
   padding: 3vh 3vw;
