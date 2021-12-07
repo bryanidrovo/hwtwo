@@ -58,4 +58,7 @@ li a, li a:hover, li a:active{
   color: green;
 }
       
-    
+ .bacon:visited {
+   text-decoration:none;
+   color: inherit;
+}
