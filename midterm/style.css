@@ -51,7 +51,8 @@ li a, li a:hover, li a:active{
     margin: 4vw 4vh;
     color: yellow;
     font-size: 1em;
-    animation: plate 2s;
+    animation: plate 2s; 
+    text-decoration:none;
 }
 .bacon:active {
   color: green;
